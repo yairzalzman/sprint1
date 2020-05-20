@@ -1,0 +1,10 @@
+.chart .cell {
+background-color: grey;
+width: 40px;
+height: 40px;
+}
+
+.chart {
+    margin: auto;
+    margin-top: 400px;
+}
