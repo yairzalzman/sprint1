@@ -1,14 +1,43 @@
-.chart .cell {
-background-color: grey;
-width: 40px;
-height: 40px;
+.body { 
+background-image: url("img.jpg");
 }
 
-.chart {
+.chart .cell {
+background-color: rgb(158, 192, 255);
+width: 70px;
+height: 70px;
+border-radius: 20px;
+text-align: center;
+}
+
+.board-container {
     margin: auto;
-    margin-top: 400px;
+    margin-top: 300px;
+    margin-left: 40%;   
 }
 
 table td span {
     display: none;
+}
+
+
+.timer, .minesCount{
+border-radius: 20px;
+padding: 20px;
+display: inline-block;
+text-align: center;
+font-size: 20px;
+vertical-align: middle;
+background-color: lightskyblue;
+text-align: center;
+}
+
+.bomb span {
+text-align: center;
+background-color: transparent;
+}
+
+.flagImage {
+    color: #ededed;
+    font-size: 24px;
 }
